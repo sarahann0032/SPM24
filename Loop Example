@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main() {
+    printf("Hello World\n");
+    int total = 6;
+    for(int i=1; total <= 5; i++){
+        total += 1;
+        printf("Total = %d\n", total);
+    }
+    return 0;
+}
